@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    app:showAsAction="always"
+    android:title="bt"
+    android:icon="@drawable/bt"
+    android:id="@+id/bt"/>
+    <item
+        app:showAsAction="always"
+        android:title="Refreshing"
+        android:icon="@drawable/auto"
+        android:id="@+id/auto"
+        />
+    <item
+        android:id="@+id/gallery"
+        app:showAsAction="always"
+        android:title="Gallery"
+        android:icon="@drawable/gallery"
+        />
+    <item
+        android:id="@+id/call_action"
+        android:title="Call"
+        app:showAsAction="never"
+        android:orderInCategory="1">
+
+    </item>
+    <item
+        android:id="@+id/SMS_action"
+        android:title="Sms"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/contact"
+        android:title="Contact Us"
+        app:showAsAction="never"
+        android:orderInCategory="2"/>
+
+    <item
+        android:title="Galllery"
+        app:showAsAction="never"
+        android:orderInCategory="3"
+        android:id="@+id/gal"/>
+    <item
+        android:id="@+id/alarm"
+        android:title="Alarm"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+    <item
+        android:title="Settings"
+        android:orderInCategory="5"
+        app:showAsAction="never"
+        android:id="@+id/settings"
+        />
+
+    <item
+        android:title="Help"
+        app:showAsAction="never"
+        android:orderInCategory="6"
+        android:id="@+id/help"
+        />
+
+</menu>

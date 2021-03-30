@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="123dp"
+        android:src="@drawable/sujit1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:background="@android:color/black"
+        android:text="@string/footer"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

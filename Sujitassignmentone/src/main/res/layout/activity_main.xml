@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:id="@+id/lc"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="50sp"
+        android:id="@+id/data"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:text="@string/tt"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_marginLeft="30sp"
+        android:layout_width="226sp"
+        android:layout_height="wrap_content"
+        android:text="This assignment has been done with honesty"/>
+    <fragment
+        android:name="com.example.sujitassignmentone.fragmentvedio3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="200sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Design by SUJIT KUMAR Roll no A67 11804143"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold">
+    </TextView>
+</LinearLayout>
+</ScrollView>

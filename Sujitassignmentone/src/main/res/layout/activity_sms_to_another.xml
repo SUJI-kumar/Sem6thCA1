@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sms_to_another">
+
+    <TextView
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Enter your mobile number"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColorHint="@android:color/black"
+        android:hint="Mobile no"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        />
+    <EditText
+        android:id="@+id/txtmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_marginHorizontal="50sp"
+        android:id="@+id/send"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Send"/>
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUJIT KUMAR"
+        android:textSize="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REG.NO 11804143"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+
+        />
+
+
+
+</LinearLayout>
